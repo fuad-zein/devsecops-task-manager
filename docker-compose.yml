@@ -1,7 +1,6 @@
-version: '3.8'
 services:
   mysql:
-    image: mysql:8.0
+    image: mysql:8.0.42
     container_name: taskmanager-mysql
     restart: unless-stopped
     environment:
